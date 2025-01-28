@@ -14,6 +14,7 @@
     background-color: yellow;
         border-raidus: 50%;
     position: relative;
+    border:dotted;
     animation: bounce 2s infinite;
 }
 .ball3 {
@@ -22,6 +23,7 @@
     background-color: blue;
         border-raidus: 50%;
     position: relative;
+    border:dotted;
     animation: bounce 2s infinite;
 }
 @keyframes bounce {
