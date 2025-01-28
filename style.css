@@ -6,6 +6,7 @@
         border-raidus: 50%;
     position: relative;
     animation: bounce 2s infinite;
+    left:50px;
 }
 
 .ball2 {
@@ -16,6 +17,7 @@
     position: relative;
     border:dotted;
     animation: bounce 2s infinite;
+    left:100px;
 }
 .ball3 {
     width: 50px;
@@ -25,8 +27,9 @@
     position: relative;
     border:dotted;
     animation: bounce 2s infinite;
+    left: 0px;
 }
 @keyframes bounce {
     0%, 100%{transform: translateY(0); }
-    50%{transform: translateY(-100px); }
+    50%{transform: translateY(-150px); }
 }
